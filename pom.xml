@@ -59,8 +59,8 @@
 
     <distributionManagement>
         <site>
-            <id>Fang</id>
-            <url>scp://@shrek.unideb.hu:2222/home/BUPE9999/public_html/${project.artifactId}</url>
+            <id>shrek</id>
+            <url>scp://@shrek.unideb.hu:2222/home/BUPE/public_html/${project.artifactId}</url>
         </site>
     </distributionManagement>
 
