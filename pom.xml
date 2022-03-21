@@ -60,7 +60,7 @@
     <distributionManagement>
         <site>
             <id>shrek</id>
-            <url>scp://@shrek.unideb.hu:2222/home/BUPE9999/public_html/${project.artifactId}</url>
+            <url>scp://bupe9999@shrek.unideb.hu:2222/home/bupe9999/public_html/${project.artifactId}</url>
         </site>
     </distributionManagement>
 
@@ -213,14 +213,6 @@
     <reporting>
 
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>3.1.2</version>
-                <configuration>
-                    <configLocation>checkstyle.xml</configLocation>
-                </configuration>
-            </plugin>
 
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
